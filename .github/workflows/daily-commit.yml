@@ -1,9 +1,6 @@
 name: Daily Commit
 
 on:
-  schedule:
-    # 每天 UTC 时间 0 点运行（北京时间 8 点）
-    - cron: '0 0 * * *'
   workflow_dispatch: # 允许手动触发
 
 jobs:
